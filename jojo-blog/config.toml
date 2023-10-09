@@ -1,0 +1,24 @@
+baseurl = "https://liegong.github.io/"
+publishDir = "main"
+languageCode = "ja-ja"
+title = "jojoland"
+theme = "beautifulhugo"
+googleAnalytics = "UA-1234567890"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "jojo"
+  description = ""
+  url = "https://liegong.github.io/"
+  rss = true
+  lastmod = true
+  location = "Japan"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://liegong.github.io/"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
